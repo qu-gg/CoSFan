@@ -1,0 +1,4 @@
+memory_name: task_aware
+memory_samples: 4500
+known_boundary: false
+boundary_detection: true

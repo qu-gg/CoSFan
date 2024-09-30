@@ -1,0 +1,7 @@
+model: maml
+stochastic: true
+meta: true
+
+defaults:
+  - layers: baselines
+  - hyperparameters: maml

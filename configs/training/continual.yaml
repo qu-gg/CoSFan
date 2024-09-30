@@ -1,0 +1,12 @@
+# What type of training this is (e.g. continual, batch, debug)
+task_setting: continual
+
+# Number of steps to update the model on in a task
+num_updates_steps: 1500
+
+# Number of steps per task
+num_task_steps: 2000
+
+# How often to log training and validation metrics
+log_interval: 250
+val_log_interval: 250

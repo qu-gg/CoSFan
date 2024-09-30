@@ -1,0 +1,17 @@
+dataset: g6
+dataset_ver: grav_
+dataset_percent: 1.0
+
+task_ids: [0, 1, 2, 3, 4, 5]
+num_dynamics: 6
+
+# Average likelihood MAE threshold to flag a new task
+task_threshold: 7.5
+
+testing_splits:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5

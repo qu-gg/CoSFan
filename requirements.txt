@@ -1,0 +1,14 @@
+hydra-core==1.3.2
+hyper-nn==0.2.2
+matplotlib==3.7.0
+numpy==1.24.2
+omegaconf==2.3.0
+pytorch-lightning==1.9.0
+PyYAML==6.0
+scikit-learn==1.4.2
+scipy==1.10.1
+skimage==0.0
+torch==1.13.1
+torchdiffeq==0.2.3
+tqdm==4.64.1
+utils==1.0.2

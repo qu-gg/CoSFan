@@ -1,0 +1,7 @@
+model: dkf
+stochastic: false
+meta: false
+
+defaults:
+  - layers: baselines
+  - hyperparameters: default

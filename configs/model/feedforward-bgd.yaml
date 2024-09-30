@@ -1,0 +1,7 @@
+model: feedforwardbgd
+stochastic: true
+meta: true
+
+defaults:
+  - layers: default
+  - hyperparameters: default

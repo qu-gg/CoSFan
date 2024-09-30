@@ -1,0 +1,31 @@
+defaults:
+  - _self_
+  - model: metargnres
+  - dataset: mp
+  - training: stationary
+  - memory: naive
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+# PyTorch-Lightning hardware params
+accelerator: gpu
+devices: [0]
+num_workers: 8
+
+# Random seed of the run
+seed: 125125125
+
+# Whether to set a specific experiment tag to differentiate or not
+exptag: ""
+
+# Experiment folder naming
+# exptype: ${seed}_${training.task_setting}_${dataset.dataset}_${model.model}_${memory.memory_name}${exptag}
+exptype: ${model.model}_${dataset.dataset}_${training.task_setting}_${memory.memory_name}_${seed}
+model_path: ""
+checkpt: ""
+
+# Whether to save reconstructions to disk
+save_files: false

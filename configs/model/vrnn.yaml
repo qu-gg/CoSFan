@@ -1,0 +1,7 @@
+model: vrnn
+stochastic: false
+meta: false
+
+defaults:
+  - layers: baselines
+  - hyperparameters: default

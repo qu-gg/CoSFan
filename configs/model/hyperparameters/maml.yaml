@@ -1,0 +1,30 @@
+# What metrics to evaluate on
+metrics:
+  - recon_mse
+  - dst
+
+# Batch size
+batch_size: 64
+domain_size: 15
+domain_varying: false
+
+# We turn off inference mode for Reptile as we need
+# to fine-tune in the val/test stages
+inference_mode: false
+
+# Learning rate and cosine annealing scheduler
+gradient_clip: null
+inner_learning_rate: 1e-4
+inner_steps: 5
+
+learning_rate: 1e-3
+
+# KL loss betas
+betas:
+  um: 0.15
+  z0: 1e-2
+  kl: 1e-3
+
+# How many steps are given for inference and to generate
+z_amort: 3
+gen_len: 20

@@ -1,0 +1,7 @@
+model: rgnres
+stochastic: false
+meta: false
+
+defaults:
+  - layers: baselines
+  - hyperparameters: default
