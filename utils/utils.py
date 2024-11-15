@@ -46,6 +46,11 @@ def get_model(name):
         from models.FeedForwardBGD import FeedForwardBGD
         return FeedForwardBGD
 
+    # Additive Feed-Forward Models
+    if name == "feedforwardadditive":
+        from models.FeedForwardAdditive import FeedForwardAdditive
+        return FeedForwardAdditive
+
     # MAML Models
     if name == "maml":
         from models.Maml import Maml

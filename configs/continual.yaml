@@ -1,6 +1,6 @@
 defaults:
   - _self_
-  - model: feedforward
+  - model: feedforward-additive
   - dataset: mp
   - training: continual
   - memory: task-aware

@@ -1,0 +1,7 @@
+model: feedforwardadditive
+stochastic: true
+meta: true
+
+defaults:
+  - layers: additive
+  - hyperparameters: default

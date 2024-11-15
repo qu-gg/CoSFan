@@ -1,0 +1,8 @@
+dim: 32
+code_dim: 12
+latent_dim: 12
+latent_act: swish
+num_layers: 3
+num_hidden: 128
+num_filters: 32
+num_channels: 1

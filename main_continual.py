@@ -85,7 +85,6 @@ def plot_continual_metrics(cfg, logger):
 
         plt.tight_layout()
         plt.savefig(f"{logger.log_dir}/temporal_{metric_name}_performance.png")
-        plt.show()
         plt.close()
 
     # Plot each metric in the config
