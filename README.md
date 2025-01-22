@@ -3,7 +3,7 @@
   Latent Neural Dynamics (CoSFan):<br> 
   Meta-Learning What-How & When to Adapt<br>
 <!--   (ICLR 2023 Top-25%)<br> -->
-  [<a href=''>OpenReview</a>, <a href=''>ARXIV</a>]
+  [<a href='https://openreview.net/forum?id=Dl3MsjaIdp'>OpenReview</a>]
 </h1>
 
 <p align='center'>Ryan Missel, Linwei Wang</p>
