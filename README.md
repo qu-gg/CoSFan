@@ -26,12 +26,12 @@ and the feed-forward meta-model combined with task-aware/-relational continual l
 Please cite the following if you use the data or the model in your work:
 ```bibtex
 @inproceedings{
-missel2025cosfan,
-title={Continual Slow-and-Fast Adaptation of Latent Neural Dynamics (CoSFan): Meta-Learning What-How & When to Adapt},
-author={Ryan Missel and Linwei Wang},
-booktitle={},
-year={2025},
-url={}
+  missel2025cosfan,
+  title={Continual Slow-and-Fast Adaptation of Latent Neural Dynamics (Co{SF}an): Meta-Learning What-How \& When to Adapt},
+  author={Ryan Missel and Linwei Wang},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=Dl3MsjaIdp}
 }
 ```
 
